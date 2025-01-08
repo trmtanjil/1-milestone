@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    height: 76.2px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-top: -70px;
+
+}
+nav ul{
+    display:inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(29, 6, 231);
+    font-weight: 1000;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color: rgb(255, 2, 183);
+    border-bottom: 2px solid rgb(149, 0, 255);
+}
